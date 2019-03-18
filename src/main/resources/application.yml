@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.119.119.4:3308/zemtest
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+user:
+  name:xiaohu
+  sex:man
+  age:21
